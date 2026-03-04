@@ -1,0 +1,7 @@
+name = "huguoblog"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "huguoblog"
+database_id = "2f2e99dd-98ba-434d-ac60-ad8511618fc3"

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+
   modules: [
     '@nuxt/fonts',
     '@nuxt/icon',
@@ -19,5 +20,8 @@ export default defineNuxtConfig({
     db: 'sqlite',  
     blob: true,    
     kv: true,     
+  },
+    nitro: {
+    preset: 'cloudflare-pages' 
   },
 })
